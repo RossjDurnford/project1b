@@ -74,6 +74,7 @@ The colour scheme for this project is largely centered around the background col
 
 * This page features a paragraph which features the companies mission and their mission statement.
 ![ScreenShot_12_04_2022_15_18_35](https://user-images.githubusercontent.com/101630755/162985873-7e8940ae-151a-4946-bcde-c9474911fdb4.png)
+
 ## Contact us
 
 * This page features the address of the gym the website has been created for.
@@ -98,6 +99,7 @@ For the future of this page, I would consider adding in a page that allows peopl
 * Tested on W3 validator one error url https://validator.w3.org/nu/?doc=https%3A%2F%2Frossjdurnford.github.io%2FProject-1A%2F. 
 Error Corrected. Title was missing.
 ![error check](https://user-images.githubusercontent.com/101630755/162987524-26703efd-83f3-4244-9ba1-9084aefab483.png)
+
 ## Lighthouse test
 
 This page was also tested using https://www.webpagetest.org/lighthouse. This page measures the following;
@@ -109,7 +111,13 @@ This page was also tested using https://www.webpagetest.org/lighthouse. This pag
 
 ## CSS Validation
 
-The CSS of this website has also been tested by using https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options. This was done by directly inputting the CSS into the validator.
+* CSS tested after first submission found 2 errors which have since been fixed.
+
+![cleared-css](https://user-images.githubusercontent.com/101630755/170025213-4e436b86-d32a-41e0-b237-afee0586ed23.png)
+
+![css-validation](https://user-images.githubusercontent.com/101630755/170024056-75a8ef34-fe83-4535-86c5-4e3b68f36106.png)
+
+* The CSS of this website has also been tested by using https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options. This was done by directly inputting the CSS into the validator.
 
 ![CSS-validator](https://user-images.githubusercontent.com/101630755/165264415-2bcfeaf3-936b-496e-b22e-f0fedf7ab2e0.png)
 
@@ -128,11 +136,13 @@ The second Image is the Chrome test.
 
 I have conducted a responsiveness test on this project using the developer tools in google chrome for every device type that is available within the Chrome Dev tools. During the process some adjustments had to be made to media queries, however after making these changes the website has responded well and the appearance of the website on multiple devices would be considered as acceptable. Additionally no features have been removed during this time. Further too this all Links and images are fully working on every device however on some mobiles in future a hamburger menu may be more applicable.
 
-
-
-
-
 # Bugs and Fixes
+
+* Open.html page errors. Fixed.
+ 
+![errors-on-open-html](https://user-images.githubusercontent.com/101630755/170022716-921f58f1-c6b4-4dff-ba3d-55cc73787c23.png) 
+
+* Fixed form where i incorrectly added an href to a button rather than use an action in the form.
 
 * Background cover didnt work,   -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -140,6 +150,7 @@ I have conducted a responsiveness test on this project using the developer tools
     background-position: center;
     height:100%;
     width:100%;. This was added and fixed the issue. additionally this stopped the whitespace at the bottom of the page.
+    
  * Couldnt get the nav links to underline when selected and the page had loaded, Had to add a class of page-selected, and in the CSS file apply a text decoration of underline with a color of white  
 
 # Deploymment
